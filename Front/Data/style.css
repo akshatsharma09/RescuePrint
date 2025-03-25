@@ -1,0 +1,37 @@
+.dashboard-container {
+    width: 50%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    color: #001f3f;
+}
+
+.user-info p {
+    font-size: 18px;
+    color: #333;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#logout-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: #d9534f;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#logout-btn:hover {
+    background: #c9302c;
+}

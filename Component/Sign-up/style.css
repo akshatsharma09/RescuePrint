@@ -1,0 +1,127 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Full page styling */
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+/* Form container */
+.container {
+    padding: 2rem;
+    width: 350px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Scale effect on hover */
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Page Title */
+#login, #signup {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0072ff;
+}
+
+/* Input fields */
+.input {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Input Hover Effect */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border: 1px solid #0072ff;
+    box-shadow: 0px 0px 5px rgba(0, 114, 255, 0.5);
+}
+
+/* Options section */
+.option {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Link Hover Effect */
+.option a {
+    text-decoration: none;
+    color: #0072ff;
+    font-size: 14px;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.option a:hover {
+    color: #005bb5;
+}
+
+/* Underline animation for links */
+.option a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background: #0072ff;
+    transition: width 0.3s;
+}
+
+.option a:hover::after {
+    width: 100%;
+}
+
+/* Button Hover Effect */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #0072ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Hover effect: color change & slight lift */
+.btn:hover {
+    background: #005bb5;
+    transform: translateY(-3px);
+}
+
+/* Active (click) effect */
+.btn:active {
+    transform: translateY(1px);
+}

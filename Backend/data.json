@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Anil Kumar",
+    "address": "32/A XYZ Colony, Mumbai",
+    "phone": "6587456121",
+    "alternate": "456456",
+    "emergency": "9876543210",
+    "bloodGroup": "B+",
+    "medicalHistory": "No known allergies"
+  },
+  {
+    "name": "Aditya kesarwani",
+    "address": "587 Babuganj mandi,Mutthiganj, Prayagraj",
+    "phone": "9140040247",
+    "alternate": "8318940095",
+    "emergency": "9956787672",
+    "bloodGroup": "A+",
+    "medicalHistory": "No known allergies"
+  },
+  {
+    "name": "Naitik kesarwani",
+    "address": "587 Babuganj mandi,Mutthiganj, Prayagraj",
+    "phone": "8318940095",
+    "alternate": "9140040247",
+    "emergency": "9956787672",
+    "bloodGroup": "A+",
+    "medicalHistory": "No known allergies"
+  }
+]
