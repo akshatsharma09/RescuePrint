@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical History Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Medical History Form</h2>
+        
+        <label for="bloodGroup">Blood Group:</label>
+        <select id="bloodGroup">
+            <option>Select Blood Group</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>O+</option>
+            <option>O-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+        </select>
+
+        <label for="medicalProblem">Medical Problem:</label>
+        <input type="text" id="medicalProblem" placeholder="Enter medical problem">
+
+        <label for="allergies">Allergies:</label>
+        <input type="text" id="allergies" placeholder="Enter any allergies">
+
+        <h3>Medications</h3>
+        <div id="medications">
+            <div class="medication">
+                <input type="text" placeholder="Medication Name">
+                <input type="text" placeholder="Dosage (e.g., 2 tablets/day)">
+                <input type="text" placeholder="Doctor's Name">
+                <button class="remove-btn">Remove</button>
+            </div>
+        </div>
+        
+        <button id="addMedication">Add Medication</button>
+        <button id="submit" onclick="Submit()">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

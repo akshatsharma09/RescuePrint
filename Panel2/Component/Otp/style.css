@@ -1,0 +1,106 @@
+/* Full-page Background */
+body {
+    background: black; /* Matching your web page */
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Centered Container */
+.container {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1); /* Glassmorphism effect */
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Title & Subtitle */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+.subtitle {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+/* OTP Boxes */
+.otp-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.otp-box {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #555;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+    transition: 0.2s;
+}
+.otp-box:focus {
+    border-color: #00ffcc;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Verify Button */
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: #00ffcc;
+    color: black;
+    cursor: pointer;
+}
+.btn:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+/* Timer */
+.timer-text {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+}
+
+/* Back Button */
+.back-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+.resend {
+    color: gray;
+    text-decoration: none;
+}
+.design {
+    text-decoration: none;
+    color: skyblue;
+}

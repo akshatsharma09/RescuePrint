@@ -48,7 +48,7 @@ function verifyOTP() {
     if (otp.length === 4 && !isNaN(otp)) {  // Expecting 6 digits
         document.getElementById("status").innerText = "✅ Verified!";
         setTimeout(() => {
-            window.location.href = "../../Front/index.html";
+            window.location.href = "../Medical_Details/index.html";
         }, 2000);
     } else {
         document.getElementById("status").innerText = "❌ Invalid OTP!";

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical History Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Medical History Dashboard</h2>
+        
+        <input type="text" id="searchInput" placeholder="Search by name or condition...">
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Blood Group</th>
+                    <th>Medical Problem</th>
+                    <th>Allergies</th>
+                    <th>Medications</th>
+                    <th>Doctor</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="dataTable">
+                <!-- Sample Row -->
+                <tr>
+                    <td>John Doe</td>
+                    <td>A+</td>
+                    <td>Diabetes</td>
+                    <td>None</td>
+                    <td>Metformin</td>
+                    <td>Dr. Smith</td>
+                    <td>
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
