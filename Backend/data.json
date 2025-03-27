@@ -2,27 +2,27 @@
   {
     "name": "Anil Kumar",
     "address": "32/A XYZ Colony, Mumbai",
-    "phone": "6587456121",
-    "alternate": "456456",
-    "emergency": "9876543210",
+    "phone": "XXXXXXX124",
+    "alternate": "XXXXXXX412",
+    "emergency": "XXXXXXX210",
     "bloodGroup": "B+",
     "medicalHistory": "No known allergies"
   },
   {
     "name": "Aditya kesarwani",
-    "address": "587 Babuganj mandi,Mutthiganj, Prayagraj",
-    "phone": "9140040247",
-    "alternate": "8318940095",
-    "emergency": "9956787672",
-    "bloodGroup": "A+",
+    "address": "32/A XYZ Colony, Maharastra",
+    "phone": "XXXXXXX247",
+    "alternate": "XXXXXXX095",
+    "emergency": "XXXXXXX672",
+    "bloodGroup": "AB",
     "medicalHistory": "No known allergies"
   },
   {
-    "name": "Naitik kesarwani",
-    "address": "587 Babuganj mandi,Mutthiganj, Prayagraj",
-    "phone": "8318940095",
-    "alternate": "9140040247",
-    "emergency": "9956787672",
+    "name": "xyz jaiswal",
+    "address": "32/A XYZ Colony, Pune",
+    "phone": "XXXXXXX045",
+    "alternate": "XXXXXXX217",
+    "emergency": "XXXXXXX721",
     "bloodGroup": "A+",
     "medicalHistory": "No known allergies"
   }
