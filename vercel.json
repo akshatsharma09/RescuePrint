@@ -2,11 +2,11 @@
     "routes": [
       {
         "src": "/admin",
-        "dest": "/Scanner/Component/Login/index.html"
+        "dest": "/component/Login/index.html"
       },
       {
         "src": "/user",
-        "dest": "/Scanner/Panel2/Component/Registration/index.html"
+        "dest": "/panel2/Registration/index.html"
       }
     ]
   }
